@@ -1,0 +1,37 @@
+# CODEOWNERS file for schedule-gateway-5
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-messaging @Armor-test/dept-reliability @Armor-test/grp-apps
+
+# Directory ownership
+/pkg/ @Armor-test/unit-ux @Armor-test/squad-storage @Armor-test/dept-ui
+/views/ @Armor-test/grp-sre @Armor-test/team-research
+/internal/ @Armor-test/squad-automation @Armor-test/team-support @Armor-test/grp-reporting
+/utils/ @Armor-test/grp-release @Armor-test/grp-reliability
+/docs/ @Armor-test/team-product @Armor-test/dept-database
+/tests/ @Armor-test/grp-sre @Armor-test/team-architecture
+/models/ @Armor-test/team-research @Armor-test/team-support @Armor-test/squad-security
+/deploy/ @Armor-test/team-auth @Armor-test/unit-storage
+/pages/ @Armor-test/squad-ui @Armor-test/team-research
+/scripts/ @Armor-test/grp-reliability @Armor-test/dept-qa @Armor-test/squad-search
+/examples/ @Armor-test/team-research @Armor-test/dept-devops
+/api/ @Armor-test/dept-frontend @Armor-test/grp-apps
+/services/ @Armor-test/dept-qa @Armor-test/unit-ux @Armor-test/dept-devops
+
+# File type ownership
+*.lock @Armor-test/team-research @Armor-test/squad-ui @Armor-test/unit-storage
+*.swift @Armor-test/unit-logging @Armor-test/team-core
+*.py @Armor-test/grp-reporting @Armor-test/team-ux @Armor-test/dept-reliability
+*.ts @Armor-test/squad-ui @Armor-test/squad-network
+*.yml @Armor-test/dept-ui @Armor-test/squad-security
+*.go @Armor-test/grp-sre @Armor-test/unit-mobile @Armor-test/dept-devops
+*.config @Armor-test/dept-search @Armor-test/grp-sre
+*.graphql @Armor-test/dept-reliability @Armor-test/dept-billing
+*.java @Armor-test/dept-reliability @Armor-test/dept-network
+*.c @Armor-test/grp-release @Armor-test/squad-storage
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
